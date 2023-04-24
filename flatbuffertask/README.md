@@ -5,7 +5,7 @@
 
 (ii) ./../flatc --python task1_schema.fbs
 
-2. To download the flatc compiler a flatc.exe file is present inside the folder
+2. To download the flatc compiler we will download flatc.exe file present inside the folder
 
 3. Encoder code is written in cpp language and a file path is given to the bin file which will be generated to the path and we will compile the encoder code using compiler 
 
