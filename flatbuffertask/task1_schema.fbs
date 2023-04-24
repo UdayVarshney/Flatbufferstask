@@ -1,0 +1,26 @@
+namespace Example;
+
+table Person {
+  name: string;
+  age: uint8;
+  weight: float;
+  gender: string;
+}
+
+table Group {
+  name: string;
+  average_age: float;
+  average_weight: float;
+  members: [string];
+}
+
+union ClientData {
+  Person: Person,
+  Group: Group
+}
+
+table Client {
+  client_data: ClientData;
+}
+
+root_type Client;
